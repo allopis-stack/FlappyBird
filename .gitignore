@@ -9,7 +9,7 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
+/[Bb]uild/*
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
@@ -74,6 +74,8 @@ tmpinst-dir.stamp
 /*_BackUpThisFolder_ButDontShipItWithYourGame/
 /*_BurstDebugInformation_DoNotShip/
 *.apk
+# Excepció: l'APK final sí que es puja
+!/[Bb]uild/FlappyBird.apk
 *.aab
 *.obb
 *.unitypackage
